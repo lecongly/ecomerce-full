@@ -4,7 +4,6 @@ import CarouselSlide from "../components/CarouselSlide";
 import Content from "../components/Content";
 import Feature from "../components/Feature";
 import Footer from "../components/Footer";
-import Head from "../components/Head";
 import Header from "../components/Header";
 import Products from "../components/Products";
 import Shop from "../components/Shop";
@@ -12,15 +11,14 @@ import Shop from "../components/Shop";
 const Home = () => {
   return (
     <>
-      <Head />
       <Header />
       <CarouselSlide />
-      <Shop />
+      {/* <Shop />
       <Products />
       <Content />
       <Feature />
       <Blog />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

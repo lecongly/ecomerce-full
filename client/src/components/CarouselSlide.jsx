@@ -15,7 +15,7 @@ const items = [
 const CarouselSlide = () => {
   return (
     <Carousel
-      className=" bg-[url('https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')] bg-contain mt-2 py-10"
+      className=" bg-[url('https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')] bg-contain py-10"
       PrevIcon={<ArrowBackIos />}
       NextIcon={<ArrowForwardIos />}
       animation={"slide"}
