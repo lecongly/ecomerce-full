@@ -19,12 +19,12 @@ const Product = ({ product }) => {
   }
   return (
     <div
-      className="h-[640px] text-center shadow-lg relative"
+      className="h-[540px] lg:h-[640px] text-center shadow-lg relative"
       onMouseEnter={handleHoverEnter}
       onMouseLeave={handleHoverExit}
     >
       <img
-        className="w-full h-[430px] object-cover"
+        className="w-full h-[330px] lg:h-[430px] object-cover"
         src={product.image}
         alt={product.name}
       />

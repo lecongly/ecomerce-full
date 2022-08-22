@@ -61,7 +61,7 @@ const Products = () => {
     },
   ];
   return (
-    <div className="container m-auto mb-20 flex flex-col items-center">
+    <div className="container m-auto px-10 md:px-5 lg:px-2.5 mb-20 flex flex-col items-center">
       <div className="text-center my-20">
         <p className="text-xl text-[#737373] font-normal mb-2.5">
           Featured Products
@@ -73,7 +73,7 @@ const Products = () => {
           Problems trying to resolve the conflict between
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-x-[30px] gap-y-[60px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-[30px] gap-y-[60px]">
         {products.map((product, key) => (
           <Product key={key} product={product} />
         ))}

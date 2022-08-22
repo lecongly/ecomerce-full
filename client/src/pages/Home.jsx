@@ -13,12 +13,12 @@ const Home = () => {
     <>
       <Header />
       <CarouselSlide />
-      {/* <Shop />
+      <Shop />
       <Products />
-      <Content />
-      <Feature />
-      <Blog />
-      <Footer /> */}
+      {/* <Content /> */}
+      {/* <Feature /> */}
+      {/* <Blog /> */}
+      {/* <Footer /> */}
     </>
   );
 };
