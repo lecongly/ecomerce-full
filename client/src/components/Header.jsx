@@ -5,6 +5,7 @@ import {
   Search,
   ShoppingCart,
   FavoriteBorder,
+  Person,
 } from "@mui/icons-material";
 import Badge from "@mui/material/Badge";
 const Header = () => {
@@ -45,6 +46,10 @@ const Header = () => {
             />
           </div>
         </form>
+        <Link to="/login" className="ml-2 flex items-center">
+          <Person className="mr-1" />
+          Login / Register
+        </Link>
         <div className="ml-3 flex gap-3">
           <Link to="/cart">
             <Badge badgeContent={4} color="primary">

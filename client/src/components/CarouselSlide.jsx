@@ -15,7 +15,7 @@ const items = [
 const CarouselSlide = () => {
   return (
     <Carousel
-      className=" bg-sky-500  mt-2 py-10"
+      className=" bg-[url('https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')] bg-contain mt-2 py-10"
       PrevIcon={<ArrowBackIos />}
       NextIcon={<ArrowForwardIos />}
       animation={"slide"}
@@ -31,7 +31,7 @@ const CarouselSlide = () => {
           <p className="text-2xl font-light text-white mb-9">
             {item.description}
           </p>
-          <button className="btn uppercase max-w-[300px]  ">Shop now</button>
+          <button className="btn primary max-w-[300px]  ">Shop now</button>
         </div>
       ))}
     </Carousel>
