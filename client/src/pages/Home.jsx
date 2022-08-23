@@ -15,10 +15,10 @@ const Home = () => {
       <CarouselSlide />
       <Shop />
       <Products />
-      {/* <Content /> */}
-      {/* <Feature /> */}
-      {/* <Blog /> */}
-      {/* <Footer /> */}
+      <Content />
+      <Feature />
+      <Blog />
+      <Footer />
     </>
   );
 };

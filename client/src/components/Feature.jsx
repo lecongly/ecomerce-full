@@ -2,7 +2,7 @@ import React from "react";
 import { LocalLibrary, Balcony, TrendingUp } from "@mui/icons-material";
 const Feature = () => {
   return (
-    <div className="container mx-auto flex flex-col items-center my-20">
+    <div className="container mx-auto px-10 md:px-5 lg:px-2.5 flex flex-col items-center my-20">
       <div className="text-center my-20">
         <p className="text-xl text-[#737373] font-normal mb-2.5">
           Featured Products
@@ -14,7 +14,7 @@ const Feature = () => {
           Problems trying to resolve the conflict between
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-[30px] ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px] ">
         <div className="w-full text-7xl flex flex-col items-center border py-9 px-11 text-center">
           <LocalLibrary fontSize="inherit" color="primary" className="mb-5" />
           <h1 className="text-2xl mb-5 font-bold">Easy Wins</h1>

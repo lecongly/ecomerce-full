@@ -6,7 +6,7 @@
   @apply text-base cursor-pointer hover:opacity-80;
 }
 .btn {
-  @apply uppercase px-[40px] py-[15px] font-bold border border-solid rounded-md transition-all cursor-pointer;
+  @apply uppercase px-2.5 md:px-[40px] py-[15px] font-bold border border-solid rounded-md transition-all cursor-pointer;
 }
 
 .btn.primary {

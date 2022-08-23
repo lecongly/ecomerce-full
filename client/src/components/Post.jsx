@@ -14,8 +14,8 @@ const Post = ({ post }) => {
   const iconStyle =
     "h-[40px] w-[40px] rounded-full bg-white flex items-center justify-center m-3 hover:bg-primary hover:text-white hover:scale-[1.1] ease-in duration-100 cursor-pointer";
   return (
-    <div className="w-full grid grid-cols-10">
-      <div className="col-span-4 relative">
+    <div className="w-full grid grid-cols-1 md:grid-cols-10 grid-rows-2 md:grid-rows-1">
+      <div className="col-span-4 row-span-1 relative">
         <img
           className="w-full h-full object-cover"
           src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1806&q=80"
